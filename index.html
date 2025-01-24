@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Untitled Application" />
 <meta name="generator" content="VisualNEO Web (24.05.22)" />
-<meta name="date" content="2025-01-19 01:25" />
+<meta name="date" content="2025-01-24 18:19" />
 <meta name="version" content="1.0" />
 <meta name="copyright" content="Copyright 2025 Author name" />
 <link rel="apple-touch-icon" href="img/default-icon.png" />
@@ -28,7 +28,8 @@
 <div class="neopage" id="Home">
 <button id="PushButton1" type="button"  class="btn btn-default [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()">Main Board</button>
 <button id="PushButton58" type="button"  class="btn btn-default [NAB.PushButton58_effect]" ng-style="NAB.PushButton58_style" ng-hide="NAB.PushButton58_hidden" ng-disabled="NAB.PushButton58_disabled" ng-click="PushButton58_click()">Update<br>within&nbsp;4 seconds</button>
-<h1 id="Headline57" class="[NAB.Headline57_effect]" ng-style="NAB.Headline57_style" ng-hide="NAB.Headline57_hidden" ng-disabled="NAB.Headline57_disabled">V1.16: <em>[Reloaded]</em></h1>
+<h1 id="Headline57" class="[NAB.Headline57_effect]" ng-style="NAB.Headline57_style" ng-hide="NAB.Headline57_hidden" ng-disabled="NAB.Headline57_disabled">V1.17: <em>[Reloaded]</em></h1>
+<button id="PushButton231" type="button"  class="btn btn-default [NAB.PushButton231_effect]" ng-style="NAB.PushButton231_style" ng-hide="NAB.PushButton231_hidden" ng-disabled="NAB.PushButton231_disabled" ng-click="PushButton231_click()">Phone Book Plus</button>
 </div>
 </script>
 <script type="text/ng-template" id="MainBoard">
@@ -312,6 +313,52 @@
 </div>
 </div>
 </script>
+<script type="text/ng-template" id="PhoneBookPlus">
+<div class="neopage" id="PhoneBookPlus">
+<textarea id="A2D1" class="form-control [NAB.A2D1_effect]" ng-style="NAB.A2D1_style" ng-hide="NAB.A2D1_hidden" ng-disabled="NAB.A2D1_disabled" ng-model="$root.a2d1"></textarea>
+<textarea id="A3D1" class="form-control [NAB.A3D1_effect]" ng-style="NAB.A3D1_style" ng-hide="NAB.A3D1_hidden" ng-disabled="NAB.A3D1_disabled" ng-model="$root.a3d1"></textarea>
+<textarea id="A4D1" class="form-control [NAB.A4D1_effect]" ng-style="NAB.A4D1_style" ng-hide="NAB.A4D1_hidden" ng-disabled="NAB.A4D1_disabled" ng-model="$root.a4d1"></textarea>
+<textarea id="A5D1" class="form-control [NAB.A5D1_effect]" ng-style="NAB.A5D1_style" ng-hide="NAB.A5D1_hidden" ng-disabled="NAB.A5D1_disabled" ng-model="$root.a5d1"></textarea>
+<textarea id="A1D1" class="form-control [NAB.A1D1_effect]" ng-style="NAB.A1D1_style" ng-hide="NAB.A1D1_hidden" ng-disabled="NAB.A1D1_disabled" ng-model="$root.a1d1"></textarea>
+<h1 id="Headline193" class="[NAB.Headline193_effect]" ng-style="NAB.Headline193_style" ng-hide="NAB.Headline193_hidden" ng-disabled="NAB.Headline193_disabled">Phone Book Plus</h1>
+<div id="Container27" class="[NAB.Container27_effect]" ng-style="NAB.Container27_style" ng-hide="NAB.Container27_hidden" ng-disabled="NAB.Container27_disabled">
+<textarea id="TextArea63" class="form-control [NAB.TextArea63_effect]" ng-style="NAB.TextArea63_style" ng-hide="NAB.TextArea63_hidden" ng-disabled="NAB.TextArea63_disabled" ng-model="$root.Contact1stName" ng-change="TextArea63_change()"></textarea>
+<textarea id="TextArea64" class="form-control [NAB.TextArea64_effect]" ng-style="NAB.TextArea64_style" ng-hide="NAB.TextArea64_hidden" ng-disabled="NAB.TextArea64_disabled" ng-model="$root.ContacttNameSurname" ng-change="TextArea64_change()"></textarea>
+<select id="Combobox1" ng-model="$root.Title" class="[NAB.Combobox1_effect]" ng-style="NAB.Combobox1_style" ng-hide="NAB.Combobox1_hidden" ng-disabled="NAB.Combobox1_disabled" ng-change="Combobox1_change()"><option style="display:none" value="">&nbsp;</option><option>MR</option><option>MRS</option><option>Miss</option><option>Dr</option><option></option></select>
+<h1 id="Headline194" class="[NAB.Headline194_effect]" ng-style="NAB.Headline194_style" ng-hide="NAB.Headline194_hidden" ng-disabled="NAB.Headline194_disabled">[Title]</h1>
+<h1 id="Headline195" class="[NAB.Headline195_effect]" ng-style="NAB.Headline195_style" ng-hide="NAB.Headline195_hidden" ng-disabled="NAB.Headline195_disabled">1st Name</h1>
+<h1 id="Headline196" class="[NAB.Headline196_effect]" ng-style="NAB.Headline196_style" ng-hide="NAB.Headline196_hidden" ng-disabled="NAB.Headline196_disabled">2nd Name</h1>
+<h1 id="Headline197" class="[NAB.Headline197_effect]" ng-style="NAB.Headline197_style" ng-hide="NAB.Headline197_hidden" ng-disabled="NAB.Headline197_disabled">e-mail</h1>
+<textarea id="TextArea65" class="form-control [NAB.TextArea65_effect]" ng-style="NAB.TextArea65_style" ng-hide="NAB.TextArea65_hidden" ng-disabled="NAB.TextArea65_disabled" ng-model="$root.email" ng-change="TextArea65_change()"></textarea>
+<h1 id="Headline198" class="[NAB.Headline198_effect]" ng-style="NAB.Headline198_style" ng-hide="NAB.Headline198_hidden" ng-disabled="NAB.Headline198_disabled">Phone:</h1>
+<textarea id="TextArea66" class="form-control [NAB.TextArea66_effect]" ng-style="NAB.TextArea66_style" ng-hide="NAB.TextArea66_hidden" ng-disabled="NAB.TextArea66_disabled" ng-model="$root.phone" ng-change="TextArea66_change()"></textarea>
+<h1 id="Headline199" class="[NAB.Headline199_effect]" ng-style="NAB.Headline199_style" ng-hide="NAB.Headline199_hidden" ng-disabled="NAB.Headline199_disabled">Mobile:</h1>
+<textarea id="TextArea67" class="form-control [NAB.TextArea67_effect]" ng-style="NAB.TextArea67_style" ng-hide="NAB.TextArea67_hidden" ng-disabled="NAB.TextArea67_disabled" ng-model="$root.mobile" ng-change="TextArea67_change()"></textarea>
+<textarea id="TextArea68" class="form-control [NAB.TextArea68_effect]" ng-style="NAB.TextArea68_style" ng-hide="NAB.TextArea68_hidden" ng-disabled="NAB.TextArea68_disabled" ng-model="$root.address" ng-change="TextArea68_change()"></textarea>
+<button id="PushButton233" type="button"  class="btn btn-default [NAB.PushButton233_effect]" ng-style="NAB.PushButton233_style" ng-hide="NAB.PushButton233_hidden" ng-disabled="NAB.PushButton233_disabled" ng-click="PushButton233_click()">Save</button>
+<select id="Directory" name="Directory" ng-model="$root.Directory" class="[NAB.Directory_effect]" ng-style="NAB.Directory_style" ng-hide="NAB.Directory_hidden" ng-disabled="NAB.Directory_disabled" ng-change="Directory_change()"><option style="display:none" value="">&nbsp;</option><option>Choose</option><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option><option>G</option><option>H</option><option>I</option><option>J</option><option>K</option><option>L</option><option>M</option><option>N</option><option>O</option><option>P</option><option>Q</option><option>R</option><option>S</option><option>T</option><option>U</option><option>V</option><option>W</option><option>X</option><option>Y</option><option>Z</option></select>
+<textarea id="TextArea69" class="form-control [NAB.TextArea69_effect]" ng-style="NAB.TextArea69_style" ng-hide="NAB.TextArea69_hidden" ng-disabled="NAB.TextArea69_disabled" ng-model="$root.postcode" ng-change="TextArea69_change()"></textarea>
+<h1 id="Headline203" class="[NAB.Headline203_effect]" ng-style="NAB.Headline203_style" ng-hide="NAB.Headline203_hidden" ng-disabled="NAB.Headline203_disabled">Post Code:</h1>
+<h1 id="Headline204" class="[NAB.Headline204_effect]" ng-style="NAB.Headline204_style" ng-hide="NAB.Headline204_hidden" ng-disabled="NAB.Headline204_disabled">Notes:</h1>
+<textarea id="TextArea70" class="form-control [NAB.TextArea70_effect]" ng-style="NAB.TextArea70_style" ng-hide="NAB.TextArea70_hidden" ng-disabled="NAB.TextArea70_disabled" ng-model="$root.notes" ng-change="TextArea70_change()"></textarea>
+</div>
+<button id="PushButton232" type="button"  class="btn btn-default [NAB.PushButton232_effect]" ng-style="NAB.PushButton232_style" ng-hide="NAB.PushButton232_hidden" ng-disabled="NAB.PushButton232_disabled" ng-click="PushButton232_click()">Main Board</button>
+<button id="PushButton234" type="button"  class="btn btn-default [NAB.PushButton234_effect]" ng-style="NAB.PushButton234_style" ng-hide="NAB.PushButton234_hidden" ng-disabled="NAB.PushButton234_disabled" ng-click="PushButton234_click()">1</button>
+<h1 id="Headline202" class="[NAB.Headline202_effect]" ng-style="NAB.Headline202_style" ng-hide="NAB.Headline202_hidden" ng-disabled="NAB.Headline202_disabled">Address:</h1>
+<button id="PushButton236" type="button"  class="btn btn-default [NAB.PushButton236_effect]" ng-style="NAB.PushButton236_style" ng-hide="NAB.PushButton236_hidden" ng-disabled="NAB.PushButton236_disabled" ng-click="PushButton236_click()">2</button>
+<button id="PushButton237" type="button"  class="btn btn-default [NAB.PushButton237_effect]" ng-style="NAB.PushButton237_style" ng-hide="NAB.PushButton237_hidden" ng-disabled="NAB.PushButton237_disabled" ng-click="PushButton237_click()">3</button>
+<button id="PushButton238" type="button"  class="btn btn-default [NAB.PushButton238_effect]" ng-style="NAB.PushButton238_style" ng-hide="NAB.PushButton238_hidden" ng-disabled="NAB.PushButton238_disabled" ng-click="PushButton238_click()">4</button>
+<button id="PushButton239" type="button"  class="btn btn-default [NAB.PushButton239_effect]" ng-style="NAB.PushButton239_style" ng-hide="NAB.PushButton239_hidden" ng-disabled="NAB.PushButton239_disabled" ng-click="PushButton239_click()">5</button>
+</div>
+</script>
+<script type="text/ng-template" id="PhoneBook00A">
+<div class="neopage" id="PhoneBook00A">
+<h1 id="Headline200" class="[NAB.Headline200_effect]" ng-style="NAB.Headline200_style" ng-hide="NAB.Headline200_hidden" ng-disabled="NAB.Headline200_disabled">Phone Book Plus</h1>
+<button id="PushButton235" type="button"  class="btn btn-default [NAB.PushButton235_effect]" ng-style="NAB.PushButton235_style" ng-hide="NAB.PushButton235_hidden" ng-disabled="NAB.PushButton235_disabled" ng-click="PushButton235_click()">Main Board</button>
+<div id="Paragraph3" class="[NAB.Paragraph3_effect]" ng-style="NAB.Paragraph3_style" ng-hide="NAB.Paragraph3_hidden" ng-disabled="NAB.Paragraph3_disabled">Contact A1: [a1]</div>
+<h1 id="Headline201" class="[NAB.Headline201_effect]" ng-style="NAB.Headline201_style" ng-hide="NAB.Headline201_hidden" ng-disabled="NAB.Headline201_disabled">Contacts A</h1>
+</div>
+</script>
 <script type="text/ng-template" id="Page01-BUFFER">
 <div class="neopage" id="Page01-BUFFER">
 <h1 id="Headline89" class="[NAB.Headline89_effect]" ng-style="NAB.Headline89_style" ng-hide="NAB.Headline89_hidden" ng-disabled="NAB.Headline89_disabled">Buffer</h1>
@@ -469,9 +516,15 @@
 <h1 id="Headline109" class="[NAB.Headline109_effect]" ng-style="NAB.Headline109_style" ng-hide="NAB.Headline109_hidden" ng-disabled="NAB.Headline109_disabled">3</h1>
 <h1 id="Headline110" class="[NAB.Headline110_effect]" ng-style="NAB.Headline110_style" ng-hide="NAB.Headline110_hidden" ng-disabled="NAB.Headline110_disabled">4</h1>
 <h1 id="Headline150" class="[NAB.Headline150_effect]" ng-style="NAB.Headline150_style" ng-hide="NAB.Headline150_hidden" ng-disabled="NAB.Headline150_disabled">5</h1>
-<div id="Paragraph1" class="[NAB.Paragraph1_effect]" ng-style="NAB.Paragraph1_style" ng-hide="NAB.Paragraph1_hidden" ng-disabled="NAB.Paragraph1_disabled"><strong><br>&nbsp;Concept: [Concept]</strong><br><strong>&nbsp;1:</strong><em> [Concept01]<br><br></em><strong>&nbsp;2:</strong><em> [Concept02]<br><br></em><strong>&nbsp;3:</strong><em> [Concept03]<br><br></em><strong>&nbsp;4:</strong><em> [Concept04]<br><br></em><strong>&nbsp;5:</strong><em> [Concept05]<br></em><em><br></em><strong>&nbsp;6:</strong><em> [Concept06]<br><br></em><strong>&nbsp;7:</strong><em> [Concept07]<br><br></em><strong>&nbsp;8:</strong><em> [Concept08]<br><br></em><strong>&nbsp;9:</strong><em> [Concept09]</em><br><br><strong>&nbsp;10:</strong><em> [Concept10]</em><br></div>
+<div id="Backup1" class="[NAB.Backup1_effect]" ng-style="NAB.Backup1_style" ng-hide="NAB.Backup1_hidden" ng-disabled="NAB.Backup1_disabled"><strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;Concept: [Concept]</strong><br><strong>&nbsp;1:</strong><em> [Concept01]<br><br></em><strong>&nbsp;2:</strong><em> [Concept02]<br><br></em><strong>&nbsp;3:</strong><em> [Concept03]<br><br></em><strong>&nbsp;4:</strong><em> [Concept04]<br><br></em><strong>&nbsp;5:</strong><em> [Concept05]<br></em><em><br></em><strong>&nbsp;6:</strong><em> [Concept06]<br><br></em><strong>&nbsp;7:</strong><em> [Concept07]<br><br></em><strong>&nbsp;8:</strong><em> [Concept08]<br><br></em><strong>&nbsp;9:</strong><em> [Concept09]</em><br><br><strong>&nbsp;10:</strong><em> [Concept10]</em><br></div>
 <button id="PushButton155" type="button"  class="btn btn-default [NAB.PushButton155_effect]" ng-style="NAB.PushButton155_style" ng-hide="NAB.PushButton155_hidden" ng-disabled="NAB.PushButton155_disabled" ng-click="PushButton155_click()">Next</button>
 <button id="PushButton230" type="button"  class="btn btn-default [NAB.PushButton230_effect]" ng-style="NAB.PushButton230_style" ng-hide="NAB.PushButton230_hidden" ng-disabled="NAB.PushButton230_disabled" ng-click="PushButton230_click()">Reset All</button>
+<h1 id="Headline190" class="[NAB.Headline190_effect]" ng-style="NAB.Headline190_style" ng-hide="NAB.Headline190_hidden" ng-disabled="NAB.Headline190_disabled">Back up 1</h1>
+<h1 id="Headline191" class="[NAB.Headline191_effect]" ng-style="NAB.Headline191_style" ng-hide="NAB.Headline191_hidden" ng-disabled="NAB.Headline191_disabled">Back up 2</h1>
+<textarea id="TextArea60" class="form-control [NAB.TextArea60_effect]" ng-style="NAB.TextArea60_style" ng-hide="NAB.TextArea60_hidden" ng-disabled="NAB.TextArea60_disabled" ng-model="$root.backup1" ng-change="TextArea60_change()"></textarea>
+<textarea id="TextArea61" class="form-control [NAB.TextArea61_effect]" ng-style="NAB.TextArea61_style" ng-hide="NAB.TextArea61_hidden" ng-disabled="NAB.TextArea61_disabled" ng-model="$root.backup2" ng-change="TextArea61_change()"></textarea>
+<h1 id="Headline192" class="[NAB.Headline192_effect]" ng-style="NAB.Headline192_style" ng-hide="NAB.Headline192_hidden" ng-disabled="NAB.Headline192_disabled">Back up 3</h1>
+<textarea id="TextArea62" class="form-control [NAB.TextArea62_effect]" ng-style="NAB.TextArea62_style" ng-hide="NAB.TextArea62_hidden" ng-disabled="NAB.TextArea62_disabled" ng-model="$root.backup3" ng-change="TextArea62_change()"></textarea>
 </div>
 </script>
 <script type="text/ng-template" id="Page20-6-10">
