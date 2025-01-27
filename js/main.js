@@ -2059,7 +2059,7 @@ NeoApp.controller("Page26a_Ctrl", function($scope,$rootScope,$route,$timeout,$fi
 $App.NAB.PageNumber = 21;
 $App.NAB.PageID = "Page26a";
 $scope.PushButton246_click = function() {$scope.GotoPage( "MainBoard" );};
-$scope.TextArea75_change = function() {localStorage.setItem("Topice",$App.Topice);};
+$scope.TextArea75_change = function() {localStorage.setItem("Topice","]"+$App.Topice);};
 $scope.TextArea77_change = function() {localStorage.setItem("Title26d",$App.Title26d);};
 $scope.PushButton247_click = function() {neoTalkSpeak($App.Title26d, "uk", 1, .9);};
 $scope.PushButton248_click = function() {neoTalkSpeak($App.Topice, "uk", 1, .9);};
@@ -2107,7 +2107,7 @@ NeoApp.controller("Page26e_Ctrl", function($scope,$rootScope,$route,$timeout,$fi
 $App.NAB.PageNumber = 25;
 $App.NAB.PageID = "Page26e";
 $scope.PushButton269_click = function() {$scope.GotoPage( "MainBoard" );};
-$scope.TextArea83_change = function() {localStorage.setItem("Title26i",$App.Topici);};
+$scope.TextArea83_change = function() {localStorage.setItem("Topic26i",$App.Topici);};
 $scope.TextArea84_change = function() {localStorage.setItem("Title26e",$App.Title26e);};
 $scope.PushButton270_click = function() {neoTalkSpeak($App.Title26e, "uk", 1, .9);};
 $scope.PushButton271_click = function() {neoTalkSpeak($App.Topici, "uk", 1, .9);};
