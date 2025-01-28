@@ -1557,10 +1557,12 @@ $App.item26b = localStorage.getItem("item26b");
 $App.item26c = localStorage.getItem("item26c");
 $App.item26d = localStorage.getItem("item26d");
 $App.item26e = localStorage.getItem("item26e");
-$App.item26f = localStorage.getItem("item26r");
+$App.item26f = localStorage.getItem("item26f");
 $App.item26g = localStorage.getItem("item26g");
 $App.item26h = localStorage.getItem("item26h");
 $App.item26i = localStorage.getItem("item26i");
+$App.s = localStorage.getItem("s");
+$App.e = localStorage.getItem("e");
 $scope.ObjectToFront("Card26");};
 $scope.Image34_click = function() {$App.Title00 = $App.Title26;
 $scope.ObjectToFront("Card26");
@@ -2055,8 +2057,12 @@ $scope.PushButton253_click = function() {neoTalkSpeak($App.item26b, "uk", 1, .9)
 $scope.PushButton254_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton255_click = function() {neoTalkSpeak($App.item26c, "uk", 1, .9);};
 $scope.PushButton256_click = function() {neoTalkCancelSpeech();};
-$scope.DateInput1_change = function() {localStorage.setItem("start80",$App.start80);};
-$scope.DateInput2_change = function() {localStorage.setItem("end80",$App.end80);};
+$scope.DateInput1_change = function() {localStorage.setItem("start80",$App.start80);
+$App.s = "s";
+localStorage.setItem("s",$App.s);};
+$scope.DateInput2_change = function() {localStorage.setItem("end80",$App.end80);
+$App.e = "e";
+localStorage.setItem("e",$App.e);};
 $scope.Pager6_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Page26a_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
