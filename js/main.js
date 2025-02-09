@@ -162,8 +162,9 @@ $App.feb25week1b = localStorage.getItem("feb25week1b");
 $App.feb25week1c = localStorage.getItem("feb25week1c");
 $App.feb25week1 = localStorage.getItem("feb25week1");
 $scope.GotoPage( "Dailysheet" );};
-$scope.PushButton281_click = function() {$App.test = "testthis.txt";
-$scope.VarToFile($App.test,"https://1drv.ms/f/s!Ar-YvPOuDZpGhuhIqpZ0t75etJmvaA?e=f8uygh");};
+$scope.PushButton281_click = function() {$scope.SetCompVar("clip",$App.Prayer1main);
+$scope.VarToFile($App.clip,"https://1drv.ms/f/s!Ar-YvPOuDZpGhuhIqpZ0t75etJmvaA?e=f8uygh");
+$scope.SetCompVar("clip",$App.Prayer1main);};
 });
 NeoApp.controller("MainBoard_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
