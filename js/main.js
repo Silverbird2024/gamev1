@@ -161,6 +161,7 @@ $scope.PushButton274_click = function() {$App.feb25week1a = localStorage.getItem
 $App.feb25week1b = localStorage.getItem("feb25week1b");
 $App.feb25week1c = localStorage.getItem("feb25week1c");
 $App.feb25week1 = localStorage.getItem("feb25week1");
+localStorage.setItem("feb25week1acp",$App.feb25week1acp);
 $scope.GotoPage( "Dailysheet" );};
 });
 NeoApp.controller("MainBoard_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
@@ -1748,7 +1749,6 @@ $App.NAB.PageNumber = 7;
 $App.NAB.PageID = "Dailysheet";
 $scope.PushButton273_click = function() {$scope.GotoPage( "MainBoard" );};
 $scope.TextInput19_change = function() {localStorage.setItem("feb25week1",$App.feb25week1);};
-$scope.TextArea89_change = function() {localStorage.setItem("feb25week1a",$App.feb25week1a);};
 $scope.TextArea90_change = function() {localStorage.setItem("feb25week1b",$App.feb25week1b);};
 $scope.TextArea91_change = function() {localStorage.setItem("feb25week1c",$App.feb25week1c);};
 $scope.PushButton285_click = function() {neoTalkCancelSpeech();};
@@ -1759,6 +1759,8 @@ $scope.PushButton277_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton278_click = function() {neoTalkSpeak($App.feb25week1a, "uk", 1, .9);};
 $scope.PushButton279_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton280_click = function() {neoTalkSpeak($App.feb25week1c, "uk", 1, .9);};
+$scope.TextArea89_change = function() {localStorage.setItem("feb25week1a",$App.feb25week1a);};
+$scope.TextArea85_change = function() {localStorage.setItem("feb25week1acp",$App.feb25week1acp);};
 });
 NeoApp.controller("Page02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 8;
