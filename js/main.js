@@ -1768,8 +1768,6 @@ NeoApp.controller("Page02_Ctrl", function($scope,$rootScope,$route,$timeout,$fil
 $App.NAB.PageNumber = 8;
 $App.NAB.PageID = "Page02";
 $scope.PushButton6_click = function() {$scope.GotoPage( "MainBoard" );};
-$scope.PushButton209_click = function() {neoTalkResumeSpeech();
-$scope.ObjectToFront("PushButton208");};
 $scope.PushButton208_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
 $scope.TextArea94_change = function() {localStorage.setItem("Prayer1main",$App.Prayer1main);};
@@ -2055,14 +2053,11 @@ NeoApp.controller("Page12_Ctrl", function($scope,$rootScope,$route,$timeout,$fil
 $App.NAB.PageNumber = 20;
 $App.NAB.PageID = "Page12";
 $scope.PushButton218_click = function() {$scope.GotoPage( "MainBoard" );};
-$scope.TextArea56_change = function() {localStorage.setItem("Title12a",$App.Title12a);};
 $scope.TextArea57_change = function() {localStorage.setItem("Title12b",$App.Title12b);};
 $scope.TextArea58_change = function() {localStorage.setItem("Title12d",$App.Title12d);};
 $scope.TextArea59_change = function() {localStorage.setItem("Title12c",$App.Title12c);};
 $scope.PushButton222_click = function() {neoTalkSpeak($App.Title09d, "uk", 1, .9);};
 $scope.PushButton223_click = function() {neoTalkCancelSpeech();};
-$scope.PushButton224_click = function() {neoTalkSpeak($App.Title12a, "uk", 1, .9);};
-$scope.PushButton225_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton226_click = function() {neoTalkSpeak($App.Title12b, "uk", 1, .9);};
 $scope.PushButton227_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton228_click = function() {neoTalkSpeak($App.Title12c, "uk", 1, .9);};
