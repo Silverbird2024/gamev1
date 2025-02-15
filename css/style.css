@@ -5,15 +5,16 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Home {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image43 {position:absolute;left:0px;top:1px;width:412px;height:731px;margin:0;opacity:0.51}
 #PushButton1 {position:absolute;left:303px;top:5px;width:104px;height:37px;margin:0;opacity:0.42}
-#PushButton58 {position:absolute;left:148px;top:100px;width:131px;height:55px;margin:0;opacity:0.37}
-#PushButton58:hover {color:white;font-size:9pt;font-weight:800;background-color:#000000}
+#PushButton58 {position:absolute;left:121px;top:100px;width:190px;height:55px;margin:0;opacity:0.37}
+#PushButton58:hover {color:white;text-shadow:2px 2px 5px white;opacity:1}
 #Headline57 {position:absolute;left:43px;top:169px;width:339px;height:148px;margin:0;color:#A8A8A8;font-size:17pt;font-weight:600;text-align:center}
 #PushButton231 {position:absolute;left:139px;top:597px;width:137px;height:37px;margin:0;opacity:0.42}
 #PushButton274 {position:absolute;left:140px;top:659px;width:137px;height:37px;margin:0;opacity:0.42}
 #Paragraph1 {position:absolute;left:41px;top:463px;width:331px;height:93px;margin:0;color:white;font-size:9pt}
 #PushButton219 {position:absolute;left:346px;top:688px;width:54px;height:37px;margin:0;opacity:0.42}
 #Headline254 {position:absolute;left:15px;top:24px;width:83px;height:30px;margin:0;color:#3D01A4;font-size:12pt;font-weight:600;letter-spacing:14px;text-align:center;text-shadow:0px 0px 5px black;vertical-align:middle;opacity:0.6}
-#Headline254:hover {color:Blue;font-size:12pt;font-weight:600;letter-spacing:14px;text-align:center;text-shadow:2px 2px 5px white}
+#Headline254:hover {color:#4DD3FF;font-size:12pt;font-weight:800;letter-spacing:14px;text-align:center;text-shadow:2px 2px 5px white}
+#Headline255 {position:absolute;left:94px;top:16px;width:200px;height:19px;margin:0;color:silver;font-size:8pt;font-weight:600;text-align:center}
 #MainBoard {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Card12 {position:absolute;left:95px;top:516px;width:228px;height:114px;margin:0;background-color:#F5F5DC;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #Card12:hover {color:black;font-weight:600}
@@ -557,8 +558,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Dreamboard {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Headline248 {position:absolute;left:56px;top:8px;width:276px;height:51px;margin:0;color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center}
 #PushButton292 {position:absolute;left:336px;top:9px;width:62px;height:71px;margin:0;opacity:0.42}
-#TextArea100 {position:absolute;left:13px;top:134px;width:390px;height:242px;margin:0;opacity:0.51}
-#TextArea102 {position:absolute;left:20px;top:34px;width:305px;height:45px;margin:0;opacity:0.41}
+#TextArea100 {position:absolute;left:13px;top:134px;width:390px;height:242px;margin:0;background-image:url('../img/imagename.jpg');opacity:0.51}
+#TextArea102 {position:absolute;left:20px;top:34px;width:305px;height:45px;margin:0;color:white;font-size:10pt;font-weight:600;text-align:left;opacity:0.41}
 #Headline253 {position:absolute;left:19px;top:84px;width:201px;height:52px;margin:0;color:Silver;font-size:16pt;text-align:left}
 #PushButton296 {position:absolute;left:270px;top:100px;width:131px;height:28px;margin:0;font-size:9pt}
 #PushButton297 {position:absolute;left:226px;top:101px;width:39px;height:27px;margin:0;font-size:9pt}
@@ -568,6 +569,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton294 {position:absolute;left:225px;top:409px;width:39px;height:27px;margin:0;font-size:9pt}
 #Headline249 {position:absolute;left:17px;top:5px;width:50px;height:27px;margin:0;color:Silver;font-size:16pt;text-align:center}
 #PushButton295 {position:absolute;left:11px;top:707px;width:137px;height:24px;margin:0;color:blue;font-size:7pt}
+#PushButton298 {position:absolute;left:265px;top:707px;width:137px;height:24px;margin:0;color:blue;font-size:7pt}
 #Save {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton209 {position:absolute;left:287px;top:691px;width:120px;height:40px;margin:0;}
 #TextArea56 {position:absolute;left:24px;top:40px;width:366px;height:624px;margin:0;color:black;font-weight:600;padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:10px;opacity:0.41}

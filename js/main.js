@@ -1787,6 +1787,7 @@ $scope.PushButton293_click = function() {neoTalkSpeak($App.Dreamout, "uk", 1, .9
 $scope.PushButton294_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton295_click = function() {$App.Dream = "https://1drv.ms/i/s!Ar-YvPOuDZpGhuk_fhnV4LH6ycQxpA?e=UjqCzL";
 window.open($App.Dream, "_blank");};
+$scope.PushButton298_click = function() {window.open($App.Dream, "_blank");};
 });
 NeoApp.controller("Save_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 9;
