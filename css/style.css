@@ -559,7 +559,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline248 {position:absolute;left:56px;top:8px;width:276px;height:51px;margin:0;color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center}
 #PushButton292 {position:absolute;left:336px;top:9px;width:62px;height:71px;margin:0;opacity:0.42}
 #TextArea100 {position:absolute;left:13px;top:134px;width:390px;height:242px;margin:0;background-image:url('../img/imagename.jpg');opacity:0.51}
-#TextArea102 {position:absolute;left:20px;top:34px;width:305px;height:45px;margin:0;color:white;font-size:10pt;font-weight:600;text-align:left;opacity:0.41}
+#TextArea102 {position:absolute;left:20px;top:34px;width:305px;height:45px;margin:0;font-weight:600;text-align:left;opacity:0.41}
 #Headline253 {position:absolute;left:19px;top:84px;width:201px;height:52px;margin:0;color:Silver;font-size:16pt;text-align:left}
 #PushButton296 {position:absolute;left:270px;top:100px;width:131px;height:28px;margin:0;font-size:9pt}
 #PushButton297 {position:absolute;left:226px;top:101px;width:39px;height:27px;margin:0;font-size:9pt}
