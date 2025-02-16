@@ -1823,9 +1823,13 @@ $scope.TextArea88_change = function() {localStorage.setItem("Prayer1main2",$App.
 $scope.TextArea92_change = function() {localStorage.setItem("Prayer1main3",$App.Prayer1main3);};
 $scope.TextArea93_change = function() {localStorage.setItem("Prayer1main4",$App.Prayer1main4);};
 $scope.TextArea95_change = function() {localStorage.setItem("Prayer1main5",$App.Prayer1main5);};
-$scope.PushButton283_click = function() {$App.Prayer1main = $App.Prayer1main1+"-|"+$App.Prayer1main2+"-|"+$App.Prayer1main3+"-|"+$App.Prayer1main4+" ";};
+$scope.PushButton283_click = function() {$App.Prayer1main = $App.Prayer1main1+"-|"+$App.Prayer1main2+"-|"+$App.Prayer1main3+"-|"+$App.Prayer1main4+" ";
+localStorage.setItem("Prayer1main",$App.Prayer1main);};
 $scope.TextArea104_change = function() {localStorage.setItem("Prayer1main6",$App.Prayer1main6);};
 $scope.TextArea105_change = function() {localStorage.setItem("Prayer1main7",$App.Prayer1main7);};
+$scope.PushButton275_click = function() {neoTalkSpeak($App.Prayer1main5, "uk", 1, .9);};
+$scope.PushButton276_click = function() {neoTalkSpeak($App.Prayer1main6, "uk", 1, .9);};
+$scope.PushButton279_click = function() {neoTalkSpeak($App.Prayer1main7, "uk", 1, .9);};
 });
 NeoApp.controller("Page03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 12;
