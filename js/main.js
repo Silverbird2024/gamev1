@@ -5,7 +5,7 @@ listbox.options[selIndex+increment].value=selValue;listbox.options[selIndex+incr
 $App.NAB={PageList:["Home","MainBoard","PhoneBookPlus","PhoneBook00A","Dailysheet","Page01-BUFFER","Page01","Dreamboard","Save","Page02","Page2a","Page03","Page04","Page05","Page20-1-5","Page20-6-10","Page06","Page07","Page08","Page09","Page10","Page11","Page12","Page26","Page26a","Page26b","Page26c","Page26d","Page26e","i","Settings01","Version"],PageEnterEffect:["fadeIn","fadeIn","","","","","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn","fadeIn"],PageCount:32,_pageEffect:" animate fadeIn",PageExitEffect:["","","","","","","","fadeOut","","","","","","","","","","","","","","","","","","","","","","","",""],PageNumber:1,AppScale:1,PageID:"",Hour:"",Hour24:"",Minute:"",Second:"",Time:"",Time24:"",DateShort:"",DateLong:"",DateFull:"",Month:"",MonthNum:"",WeekNum:"",Day:"",DayNum:"",Year:"",ClientWidth:$window.innerWidth,ClientHeight:$window.innerHeight,WindowWidth:$window.outerWidth,WindowHeight:$window.outerHeight,Orientation:$scope.GetOrientation(),OperatingSystem:"",$Watches:{},$Timers:{},$Audio:{}};$scope.__doUpdate=function(){var Now=new Date();$App.NAB.Hour=$filter("date")(Now,"h");$App.NAB.Hour24=$filter("date")(Now,"H");$App.NAB.Minute=$filter("date")(Now,"mm");$App.NAB.Second=$filter("date")(Now,"ss");$App.NAB.Time=$filter("date")(Now,"mediumTime");$App.NAB.Time24=$filter("date")(Now,"H:mm:ss");$App.NAB.DateShort=$filter("date")(Now,"shortDate");$App.NAB.DateLong=$filter("date")(Now,"longDate");$App.NAB.DateFull=$filter("date")(Now,"fullDate");$App.NAB.Month=$filter("date")(Now,"MMMM");$App.NAB.MonthNum=$filter("date")(Now,"M");$App.NAB.WeekNum=$filter("date")(Now,"w");$App.NAB.Day=$filter("date")(Now,"EEEE");$App.NAB.DayNum=$filter("date")(Now,"d");$App.NAB.Year=$filter("date")(Now,"yyyy");};$scope.__doOrientationChange=function(){$App.NAB.Orientation=$scope.GetOrientation();};$scope.__doResize=function(){$App.NAB.ClientWidth=$window.innerWidth;$App.NAB.ClientHeight=$window.innerHeight;$App.NAB.WindowWidth=$window.outerWidth;$App.NAB.WindowHeight=$window.outerHeight;};$scope.__init=function(){angular.element($window).bind("orientationchange.app",function(){$timeout($scope.__doOrientationChange);});angular.element($window).bind("resize.app",function(){$timeout($scope.__doResize);});$interval($scope.__doUpdate,1000);$App.NAB.OperatingSystem=GetPlatform();$scope.__doUpdate();};
 $scope.Home_pageenter = function() {$App.Reloaded = localStorage.getItem("Reloaded");
 $App.Dreamin = localStorage.getItem("Dreamin");
-$App.start = localStorage.getItem("start");
+$App.start = "02/23/25";
 $App.end = $App.NAB.DateShort;
 $App.diff = dtDateDiff( $App.end, $App.start, "mm/dd/yyyy" );
 $App.Title12e = localStorage.getItem("Title12e");
@@ -153,8 +153,6 @@ function debounce(func,wait,immediate){var timeout;return function(){var context
 NeoApp.controller("Home_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 1;
 $App.NAB.PageID = "Home";
-$scope.TextInput20_change = function() {localStorage.setItem("end",$App.end);};
-$scope.TextInput21_change = function() {localStorage.setItem("start",$App.start);};
 $scope.PushButton1_click = function() {$scope.GotoPage( "MainBoard" );};
 $scope.PushButton58_click = function() {window.document.location.reload();
 $App.Reloaded = $App.NAB.DateLong+"--"+$App.NAB.Time;
