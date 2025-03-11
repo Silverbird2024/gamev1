@@ -18,7 +18,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton219:hover {opacity:0.6}
 #Headline254 {position:absolute;left:15px;top:24px;width:83px;height:30px;margin:0;color:#3D01A4;font-size:12pt;font-weight:600;letter-spacing:14px;text-align:center;text-shadow:0px 0px 5px black;vertical-align:middle;opacity:0.6}
 #Headline254:hover {color:#4DD3FF;font-size:12pt;font-weight:800;letter-spacing:14px;text-align:center;text-shadow:2px 2px 5px white}
-#Headline255 {position:absolute;left:94px;top:16px;width:200px;height:19px;margin:0;color:silver;font-size:8pt;font-weight:600;text-align:center}
+#Headline255 {position:absolute;left:94px;top:14px;width:200px;height:19px;margin:0;color:silver;font-size:8pt;font-weight:600;text-align:center}
 #MainBoard {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Card12 {position:absolute;left:95px;top:516px;width:228px;height:114px;margin:0;background-color:#F5F5DC;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #Card12:hover {color:black;font-weight:600}
@@ -588,8 +588,9 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton298 {position:absolute;left:265px;top:707px;width:137px;height:24px;margin:0;color:blue;font-size:7pt}
 #Save {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton209 {position:absolute;left:287px;top:691px;width:120px;height:40px;margin:0;}
-#TextArea56 {position:absolute;left:24px;top:40px;width:366px;height:624px;margin:0;color:black;font-weight:600;padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:10px;opacity:0.41}
+#TextArea56 {position:absolute;left:24px;top:40px;width:366px;height:390px;margin:0;color:black;font-weight:600;padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:10px;opacity:0.41}
 #PushButton220 {position:absolute;left:305px;top:4px;width:104px;height:29px;margin:0;opacity:0.42}
+#PushButton169 {position:absolute;left:24px;top:438px;width:135px;height:122px;margin:0;}
 #Page02 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image35 {position:absolute;left:22px;top:17px;width:256px;height:77px;margin:0;}
 #Headline326 {position:absolute;left:28px;top:36px;width:237px;height:39px;margin:0;color:#FFFF00;font-size:24pt;font-style:italic;font-weight:600;text-align:center;text-shadow:2px 2px 5px blue}
