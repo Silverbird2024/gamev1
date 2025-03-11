@@ -7,12 +7,12 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline260 {position:absolute;left:22px;top:190px;width:368px;height:38px;margin:0;color:yellow;font-size:12pt;font-style:italic;font-weight:800;text-align:center}
 #PushButton1 {position:absolute;left:303px;top:5px;width:104px;height:37px;margin:0;opacity:0.42}
 #PushButton1:hover {opacity:0.6}
-#PushButton58 {position:absolute;left:116px;top:44px;width:190px;height:55px;margin:0;opacity:0.37}
+#PushButton58 {position:absolute;left:116px;top:48px;width:190px;height:55px;margin:0;opacity:0.37}
 #PushButton58:hover {color:white;text-shadow:2px 2px 5px white;opacity:1}
 #Headline57 {position:absolute;left:34px;top:161px;width:339px;height:96px;margin:0;color:#A8A8A8;font-size:17pt;font-weight:600;line-height:110%;text-align:center}
-#PushButton231 {position:absolute;left:139px;top:597px;width:137px;height:37px;margin:0;opacity:0.42}
+#PushButton231 {position:absolute;left:139px;top:621px;width:137px;height:37px;margin:0;opacity:0.42}
 #PushButton231:hover {opacity:0.6}
-#PushButton274 {position:absolute;left:140px;top:659px;width:137px;height:37px;margin:0;opacity:0.42}
+#PushButton274 {position:absolute;left:139px;top:575px;width:137px;height:37px;margin:0;opacity:0.42}
 #PushButton274:hover {opacity:0.6}
 #PushButton219 {position:absolute;left:346px;top:688px;width:54px;height:37px;margin:0;opacity:0.42}
 #PushButton219:hover {opacity:0.6}
@@ -537,6 +537,15 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline259 {position:absolute;left:271px;top:523px;width:126px;height:24px;margin:0;color:#D0EA2B;font-size:16pt;text-align:center}
 #TextArea18 {position:absolute;left:11px;top:1775px;width:374px;height:62px;margin:0;color:#A8A8A8;font-size:11pt;font-weight:600;text-align:center}
 #Headline164 {position:absolute;left:53px;top:1751px;width:279px;height:24px;margin:0;color:#A8A8A8;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center}
+#PreLoad {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
+#Headline269 {position:absolute;left:17px;top:5px;width:91px;height:27px;margin:0;color:Silver;font-size:16pt;text-align:center}
+#TextArea19 {position:absolute;left:32px;top:132px;width:362px;height:52px;margin:0;color:red;font-size:8pt;font-weight:600;text-align:left}
+#TextArea20 {position:absolute;left:270px;top:553px;width:127px;height:166px;margin:0;}
+#TextArea112 {position:absolute;left:272px;top:345px;width:124px;height:174px;margin:0;color:#556B2F;font-size:7pt;font-weight:600;text-align:left}
+#Headline272 {position:absolute;left:274px;top:106px;width:124px;height:24px;margin:0;color:RED;font-size:16pt;text-align:center}
+#Headline273 {position:absolute;left:271px;top:318px;width:123px;height:24px;margin:0;color:#FABC02;font-size:16pt;text-align:center}
+#Headline274 {position:absolute;left:271px;top:523px;width:126px;height:24px;margin:0;color:#D0EA2B;font-size:16pt;text-align:center}
+#PushButton170 {position:absolute;left:336px;top:9px;width:62px;height:71px;margin:0;opacity:0.42}
 #Page01-BUFFER {position:relative;width:100%;height:100%;overflow:auto;;background-color:#FFF}
 #Headline89 {position:absolute;left:60px;top:103px;width:306px;height:111px;margin:0;}
 #Page01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
@@ -1127,6 +1136,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextInput16 {position:absolute;left:185px;top:653px;width:175px;height:25px;margin:0;}
 #TextInput17 {position:absolute;left:185px;top:680px;width:175px;height:25px;margin:0;}
 #TextInput18 {position:absolute;left:185px;top:707px;width:175px;height:25px;margin:0;}
+#TextArea30 {position:absolute;left:426px;top:68px;width:294px;height:654px;margin:0;}
+#PushButton171 {position:absolute;left:369px;top:60px;width:39px;height:168px;margin:0;}
 #Version {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton84 {position:absolute;left:336px;top:9px;width:62px;height:71px;margin:0;opacity:0.42}
 #Headline117 {position:absolute;left:56px;top:8px;width:276px;height:51px;margin:0;color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center}
